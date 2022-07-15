@@ -129,14 +129,22 @@
 	transition: color 0.3s ease-in;
 }
 
-.logo__link:hover {
-	color: #57D6FF
-}
-
 .logo__icon {
 	display: block;
 
 	width: 48px;
+
+	fill: #E0E0E0;
+	
+	transition: fill 0.3s ease-in;
+}
+
+.logo__link:hover {
+	color: #57D6FF
+}
+
+.logo__link:hover .logo__icon {
+	fill: #57D6FF;
 }
 
 .logo__name--toggle {
