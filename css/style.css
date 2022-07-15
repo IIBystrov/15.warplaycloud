@@ -78,6 +78,8 @@
 	max-width: 1327px;
 
 	margin: 0 auto;
+
+	animation: anim-inner 0.5s ease-in;
 }
 
 
