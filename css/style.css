@@ -1673,7 +1673,7 @@
 
 @media (max-width: 481px) {
 	.wrapper {
-		padding-top: 10px;
+		padding-top: 0px;
 	}
 
 	/* .header */
@@ -1703,16 +1703,14 @@
 	/* .intro */
 
 	.intro {
-		padding-top: 90px;
+		margin: 0;
 
-		background: none;
 		border: none;
 		border-radius: 0;
 		box-shadow: none;
 	}
 
 	.slider {
-		background: none;
 		box-shadow: none;
 	}
 
@@ -1852,7 +1850,7 @@
 } 
 
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
 
 	/* .header */
 
@@ -1883,6 +1881,10 @@
 
 		width: 25px;
 	}
+
+	/* .registration */
+
+
 }
 
 
