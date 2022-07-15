@@ -1875,6 +1875,18 @@
 
 /* animation */
 
+/*anim-inner*/
+
+@keyframes anim-inner {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 /* burger-active-first */
 
 @keyframes burger-active-first {
