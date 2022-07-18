@@ -66,6 +66,8 @@
 
 	background: #141C24;
 	overflow: hidden;
+
+	animation: anim-wrapper 0.4s ease-in;
 }
 
 
@@ -78,8 +80,6 @@
 	max-width: 1327px;
 
 	margin: 0 auto;
-
-	animation: anim-inner 0.5s ease-in;
 }
 
 
@@ -1958,11 +1958,11 @@
 
 /* animation */
 
-/*anim-inner*/
+/*anim-wrsapper*/
 
-@keyframes anim-inner {
+@keyframes anim-wrapper {
 	0% {
-		opacity: 0;
+		opacity: 0.4;
 	}
 
 	100% {
@@ -1973,5 +1973,3 @@
 
  /* description-anim */
 
- @keyframes description-anim {
- 	
