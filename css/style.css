@@ -159,10 +159,16 @@
 	width: 70%;
 
 	margin: 0 100px;
+
+	opacity: 0;
 }
 
 .nav--active {
 	display: block;
+
+	opacity: 1;
+
+	transition: opacity 0.3s ease-in;
 }
 
 .nav__list {
@@ -238,11 +244,13 @@
 
 .burger__line--active:first-child {
 	transform: rotate(45deg);
-	top: 13px;
+	transform-origin: 30%;
+	/*top: 13px;*/
 }
 
 .burger__line--active:last-child {
 	transform: rotate(-45deg);
+	transform-origin: 30%;
 }
 
 /* intro */
