@@ -180,6 +180,10 @@
 	flex-wrap: wrap;
 }
 
+.nav .social {
+	display: none;
+}
+
 .nav__link {
 	position: relative;
 
@@ -360,15 +364,6 @@
 .registration__btn:hover {
 	background: #57D6FF;
 }
-
-/*.intro__img {
-	display: block;
-
-	width: 100%;
-
-	object-fit: cover;
-}*/
-
 
 /* description */
 
@@ -1557,6 +1552,14 @@
 
 	.nav__list {
 		flex-direction: column;
+
+		margin: 0 0 140px;
+		padding-top: 20%;
+	}
+
+	.nav .social {
+		display: flex;
+		justify-content: center;
 	}
 
 	.nav__item {
