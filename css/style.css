@@ -873,9 +873,9 @@
 	align-items: center;
 
 	width: 100%;
-	height: 100vh;
 
 	margin-top: 125px;
+	padding: 20px 0;
 }
 
 
@@ -1668,6 +1668,14 @@
 		flex-direction: column;
 		gap: 10px;
 	}
+
+	/* .registration */
+
+	.registration__header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0;
+	}
 }
 
 
@@ -1889,10 +1897,6 @@
 	}
 
 	.registration__header {
-		flex-direction: column;
-		align-items: flex-start;
-		gap: 0;
-
 		margin: 0 0 51px;
 	}
 
