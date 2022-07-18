@@ -3,7 +3,6 @@
 
 @font-face {
 	font-family: "Pulsar Original";
-	src: url("PulsarOriginalRegular.eot");
     src: local("Pulsar - Original"), local("PulsarOriginalRegular"),
         url("../font/pulsaroriginal/PulsarOriginalRegular.eot?#iefix") format("embedded-opentype"),
         url("../font/pulsaroriginal/PulsarOriginalRegular.woff2") format("woff2"),
