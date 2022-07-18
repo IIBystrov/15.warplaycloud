@@ -14,8 +14,8 @@ burger.addEventListener("click", function(evt) {
 	evt.preventDefault();
 	nav.classList.toggle("nav--active");
 	header.classList.toggle("header--active");
-	burgerLineFirst.classList.toggle("burger__line--animation-start");
-	burgerLineLast.classList.toggle("burger__line--animation-start");
+	burgerLineFirst.classList.toggle("burger__line--active");
+	burgerLineLast.classList.toggle("burger__line--active");
 	logoName.classList.toggle("logo__name--toggle");
 });
 
