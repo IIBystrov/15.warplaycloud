@@ -1496,7 +1496,7 @@
 	}
 
 	.header--active {
-    	height: 450px;
+    	height: 100vh;
 	}
 
 	.logo__icon {
@@ -1680,10 +1680,6 @@
 
 	.header {
 		padding: 35px 35px;
-	}
-
-	.header--active {
-    	height: 380px;
 	}
 
 	.logo__icon {
