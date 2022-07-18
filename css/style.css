@@ -880,8 +880,9 @@
 .download__list {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	gap: 61px;
 }
 
@@ -893,6 +894,9 @@
 
 .download__img {
 	display: block;
+
+	max-width: 100px;
+	max-height: 100px;
 
 	object-fit: cover;
 }
