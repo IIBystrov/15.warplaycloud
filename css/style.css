@@ -1087,7 +1087,8 @@
 	margin: 0 0 42px;
 }
 
-.registration__text {
+.registration__text,
+.registration__list {
 	display: inline;
 
 	font: 200 normal 12px/1.17 Roboto, sans-serif;
