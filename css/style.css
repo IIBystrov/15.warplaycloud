@@ -379,6 +379,12 @@
 	width:50%;
 }
 
+.description__header {
+	display: inline-block;
+
+	margin: 0 auto;
+}
+
 .description--callage {
 	align-items: start;
 
