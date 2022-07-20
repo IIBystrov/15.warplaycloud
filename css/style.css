@@ -248,7 +248,6 @@
 .burger__line--active:first-child {
 	transform: rotate(45deg);
 	transform-origin: 30%;
-	/*top: 13px;*/
 }
 
 .burger__line--active:last-child {
@@ -1801,7 +1800,15 @@
 	}
 
 	.burger__line {
-		width: 30px;
+		width: 35px;
+	}
+
+	.burger__line--active:first-child {
+		transform-origin: 23%;
+	}
+
+	.burger__line--active:last-child {
+		transform-origin: 23%;
 	}
 
 	/* .intro */
@@ -2025,7 +2032,4 @@
 		opacity: 1;
 	}
 }
-
-
- /* description-anim */
 
