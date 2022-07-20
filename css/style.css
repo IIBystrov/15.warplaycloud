@@ -1549,6 +1549,10 @@
 	.download__container .title {
 		margin: 0 auto 65px;
 	}
+
+	.download__list {
+		gap: 45px;
+	}
 	
 	.download__img {
 		max-width: 85px;
@@ -1762,6 +1766,10 @@
 
 	.download__container .title {
 		margin: 0 auto 50px;
+	}
+
+	.download__list {
+		gap: 30px;
 	}
 	
 	.download__img {
