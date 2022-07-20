@@ -878,9 +878,7 @@
 }
 
 .download__container .title {
-	width: 50%;
-
-	margin: 0 auto;
+	margin: 0 auto 125px;
 }
 
 .download__list {
@@ -1944,6 +1942,12 @@
 		align-items: center;
 
 		padding: 15px 10px;
+	}
+
+	/* download */
+
+	.download__container .title {
+		width: 50%;
 	}
 } 
 
