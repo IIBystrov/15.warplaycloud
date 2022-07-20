@@ -877,6 +877,12 @@
 	text-align: center;
 }
 
+.download__container .title {
+	width: 50%;
+
+	margin: 0 auto;
+}
+
 .download__list {
 	display: flex;
 	flex-direction: row;
@@ -1370,6 +1376,10 @@
 
 	/* download */
 
+	.download__container .title {
+		margin: 0 auto 74px;
+	}
+
 	.download__img {
 		max-width: 95px;
     	max-height: 95px;
@@ -1538,6 +1548,10 @@
 
 	/* download */
 
+	.download__container .title {
+		margin: 0 auto 65px;
+	}
+	
 	.download__img {
 		max-width: 85px;
     	max-height: 85px;
@@ -1748,6 +1762,10 @@
 
 	/* download */
 
+	.download__container .title {
+		margin: 0 auto 50px;
+	}
+	
 	.download__img {
 		max-width: 65px;
     	max-height: 65px;
